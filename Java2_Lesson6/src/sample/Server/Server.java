@@ -15,6 +15,7 @@ public class Server {
             while (true) {
                 Socket socket = serverSocket.accept();
                 System.out.println("Client connected");
+                System.out.println("Client connected");
                 new Klient(socket);
             }
         } catch (IOException e) {
